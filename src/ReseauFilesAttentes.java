@@ -315,7 +315,7 @@ public class ReseauFilesAttentes {
 
     public void generateData(String filename, String partieNom, String contenu) {
         try {
-            String filepath = System.getProperty("user.dir") + File.separator + "projet_med/Data/" + filename
+            String filepath = System.getProperty("user.dir") + File.separator + "Data/" + filename
                     + String.valueOf(partieNom) + ".dat";
             System.out.println("Ecriture du fichier : " + filepath);
             FileWriter fw = new FileWriter(filepath);
